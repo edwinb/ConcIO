@@ -1,0 +1,6 @@
+package concio
+
+opts    = "--nobasepkgs -i ../prelude -i ../base"
+modules = ConcIO,
+
+          ConcIO.Channels, ConcIO.Protocol, ConcIO.IOu
