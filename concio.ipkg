@@ -1,6 +1,6 @@
 package concio
 
-opts    = "--nobasepkgs -i ../prelude -i ../base"
-modules = ConcIO,
+opts = ""
+sourcedir = src
+modules = IOu, Protocol, Channels
 
-          ConcIO.Channels, ConcIO.Protocol, ConcIO.IOu
