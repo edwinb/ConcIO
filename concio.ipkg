@@ -1,0 +1,6 @@
+package concio
+
+opts = ""
+sourcedir = src
+modules = IOu, Protocol, Channels
+
